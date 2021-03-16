@@ -68,6 +68,9 @@ public class Test_script_test1 extends baseTest{
 		log.debug("Clicking on Send Me Instruction button");
 		objFP.SendMeInstructionButton().click();
 		log.info("Send Me Instruction button is clicked");
+		
+		
+		System.out.println("GIT TRIAL");
 	}
 
 	@AfterMethod
