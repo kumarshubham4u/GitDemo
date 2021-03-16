@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="testCases.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="testCases.Test_script_test1">
+        <methods>
+          <include name="teardown"/>
+          <include name="Login" invocation-numbers="0"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- testCases.Test_script_test1 -->
+      <class name="testCases.Test_script_Test2">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+          <include name="validateElements"/>
+        </methods>
+      </class> <!-- testCases.Test_script_Test2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
