@@ -76,6 +76,13 @@ public class Test_script_test1 extends baseTest{
 		System.out.println("GIT TRIAL");
 		System.out.println("GIT TRIAL");
 		System.out.println("GIT TRIAL");
+		
+		System.out.println("GIT TRIAL");
+		System.out.println("GIT TRIAL");
+		System.out.println("GIT TRIAL");
+		System.out.println("GIT TRIAL");
+		System.out.println("GIT TRIAL");
+		System.out.println("GIT TRIAL");
 	}
 
 	@AfterMethod
